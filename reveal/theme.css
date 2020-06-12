@@ -283,3 +283,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
 @media print {
   .backgrounds {
     background-color: #191919; } }
+
+/*********************************************
+ * CUSTOM
+ *********************************************/
+
+.reveal .slides section .fragment.highlight-white {
+  opacity: 1;
+  visibility: inherit;
+}
+.reveal .slides section .fragment.highlight-white.visible {
+  color: #ffffff !important;
+}
+.reveal .slides section .fragment.underline.visible {
+  text-decoration-line: underline;
+}
