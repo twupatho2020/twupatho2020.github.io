@@ -298,3 +298,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal .slides section .fragment.underline.visible {
   text-decoration-line: underline;
 }
+span.fragment {
+  display: inline-block;
+}
